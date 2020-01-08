@@ -18,8 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/adapter")
 public class TestController {
 
-    @Autowired @Qualifier("student2")
+    @Autowired
+    @Qualifier("student2")
     private ISchool school;
+
     @GetMapping("/test")
     public void test() {
         school.study();

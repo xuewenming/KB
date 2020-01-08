@@ -8,11 +8,11 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.sam.mybatis</groupId>
-    <artifactId>01_adapter_design</artifactId>
+    <groupId>com.sam.design</groupId>
+    <artifactId>02_mybatis_template</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>01_adapter_design</name>
-    <description>适配器设计模式</description>
+    <name>02_mybatis_template</name>
+    <description>模板设计模式</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
@@ -34,10 +34,6 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 

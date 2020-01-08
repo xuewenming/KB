@@ -10,26 +10,25 @@ package com.sam.mybatis.service;
 public interface ISchool {
 
     /**
+     * @throws
      * @description:
      * @params: 学习
      * @return: void
      * @author: Mr.xuewenming
      * @create: 2020/1/8 9:30
-     * @throws
      */
     void study();
 
 
     /**
+     * @throws
      * @description: 工作
      * @params: []
      * @return: void
      * @author: Mr.xuewenming
      * @create: 2020/1/8 9:31
-     * @throws
      */
     void work();
-
 
 
 }
